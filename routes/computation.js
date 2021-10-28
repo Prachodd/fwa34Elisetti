@@ -6,7 +6,7 @@ const querystring = require('querystring');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   var arg = req.query.value;
-  res.send('Cube root applied to:' + arg + "is" + Math.cbrt(arg));
+  res.send('Cube root applied to:' + arg + "is" + Math.cos(arg));
 });
 
 module.exports = router;
