@@ -1,4 +1,4 @@
-[10:11 PM, 10/27/2021] Sindhu Reddy: var createError = require('http-errors');
+var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
